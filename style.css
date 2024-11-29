@@ -9,7 +9,7 @@ body {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-.container {
+.container.form-cont {
   border-radius: 25px;
   border: 1px solid black;
 }
@@ -32,4 +32,13 @@ select {
   background-color: lightgrey;
   color: rgb(148, 44, 44);
   border: 1px solid black;
+}
+
+
+p {
+  font-size: 20px;
+}
+
+table {
+  min-height: 100px;
 }

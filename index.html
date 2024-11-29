@@ -19,7 +19,7 @@
 
   <main>
 
-    <div class="container bg-white">
+    <div class="container form-cont bg-white">
 
       <div class="row py-4">
 
@@ -41,16 +41,18 @@
           </div>
         </div>
 
-        <div class="col-4"><div class="row justify-content-start">
-          <div class="col-8">
-            <label for="formFile" class="form-label">Fascia di età</label>
-            <select name="age" id="age">
-              <option value="17">Minorenne</option>
-              <option value="18">Maggiorenne</option>
-              <option value="66">Over 65</option>
-            </select>
+        <div class="col-4">
+          <div class="row">
+            <div class="col-8">
+              <label for="formFile" class="form-label d-block">Fascia di età</label>
+              <select name="age" id="age">
+                <option value="17">Minorenne</option>
+                <option value="18">Maggiorenne</option>
+                <option value="66">Over 65</option>
+              </select>
+            </div>
           </div>
-        </div></div>
+        </div>
 
       </div>
 
@@ -62,7 +64,38 @@
           <button class="btn" type="reset">Annulla</button>
         </div>
       </div>
+     
+    </div>
 
+    <h1 class="text-uppercase text-center text-white pt-4">il tuo biglietto</h1>
+
+    <div class="container bg-white">
+      <div class="row pt-4">
+        <h3 class="text-uppercase col-12">dettaglio passeggero</h3>
+      </div>
+
+      <div class="row">
+        <div class="col-4 bg-secondary">
+          <h2 class="text-uppercase">nome passeggero</h2>
+          <p>Jon Snow</p>
+        </div>
+        <div class="col-8">
+          <table>
+            <tr>
+              <th class="col-4">Offerta</th>
+              <th class="col-3">Carrozza</th>
+              <th class="col-3">Codice CP</th>
+              <th class="col-4">Costo biglietto</th>
+            </tr>
+            <tr>
+              <td class="col-4">Biglietto Standard</td>
+              <td class="col-2">5</td>
+              <td class="col-2">92911</td>
+              <td class="col-4">2.10&euro;</td>
+            </tr>
+          </table>
+        </div>
+      </div>
     </div>
 
   </main>
