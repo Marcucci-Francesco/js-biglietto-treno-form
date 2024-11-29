@@ -58,42 +58,44 @@
 
       <div class="row py-4">
         <div class="col-6 text-end">
-          <button class="btn" type="submit">Genera</button>
+          <button id="next-buttun" class="btn" type="submit">Genera</button>
         </div>
         <div class="col-6">
-          <button class="btn" type="reset">Annulla</button>
+          <button id="reset-buttun" class="btn" type="reset">Annulla</button>
         </div>
       </div>
      
     </div>
 
-    <h1 class="text-uppercase text-center text-white pt-4">il tuo biglietto</h1>
+    <div id="form-ticket">
+      <h1 class="text-uppercase text-center text-white pt-4">il tuo biglietto</h1>
 
-    <div class="container bg-white">
-      <div class="row pt-4">
+      <div class="container bg-white">
+        <div class="row pt-4">
         <h3 class="text-uppercase col-12">dettaglio passeggero</h3>
-      </div>
-
-      <div class="row">
-        <div class="col-4 bg-secondary">
-          <h2 class="text-uppercase">nome passeggero</h2>
-          <p>Jon Snow</p>
         </div>
-        <div class="col-8">
-          <table>
-            <tr>
-              <th class="col-4">Offerta</th>
-              <th class="col-3">Carrozza</th>
-              <th class="col-3">Codice CP</th>
-              <th class="col-4">Costo biglietto</th>
-            </tr>
-            <tr>
-              <td class="col-4">Biglietto Standard</td>
-              <td class="col-2">5</td>
-              <td class="col-2">92911</td>
-              <td class="col-4">2.10&euro;</td>
-            </tr>
-          </table>
+
+        <div class="row">
+          <div class="col-4 bg-secondary">
+            <h2 class="text-uppercase">nome passeggero</h2>
+            <p id="name"></p>
+          </div>
+          <div class="col-8">
+            <table>
+              <tr>
+                <th class="col-4">Offerta</th>
+                <th class="col-3">Carrozza</th>
+                <th class="col-3">Codice CP</th>
+                <th class="col-4">Costo biglietto</th>
+              </tr>
+              <tr>
+                <td id="offer" class="col-4"></td>
+                <td id="numberCarriage" class="col-2"></td>
+                <td id="cp" class="col-2"></td>
+                <td id="price" class="col-4">&euro;</td>
+              </tr>
+            </table>
+          </div>
         </div>
       </div>
     </div>
